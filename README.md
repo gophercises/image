@@ -24,9 +24,17 @@ SVGs have some pretty awesome advantages over PNGs. For starters, we can stop th
 
 [Anthony Starks](https://twitter.com/ajstarks) created an awesome library for building SVGs in Go called [svgo](https://github.com/ajstarks/svgo). Try using it to recreate some of the images you created in the past two steps, but this time try improving them. Maybe add some font labels or something else that was a little trickier to do with the `image` package.
 
+A PNG of the image we will be creating can be found in the `demo.svg` file in this repo and is shown below in PNG format.
+
+![A demo of the image we will be creating in the "image" exercise.](https://raw.githubusercontent.com/gophercises/image/master/demo.png)
+
+
 ### Notes and suggestions
 
 **Use an `svgdef` file to learn about svgo**
 
 They say a picture is worth a thousand words; in this case I suspect it is worth mort. Along with great docs, `svgo` has a single image that show you what types of shapes and lines can be created with each function call. Rather than having to experiment, we can just scan the image and quickly figure out which fits our needs. You can find that image in the repo, or here: <https://raw.githubusercontent.com/ajstarks/svgo/master/svgdef.png>
 
+**Use a tool like `rsvg-convert` to convert an SVG into a PNG**
+
+You can use a tool like `rsvg-covnert` to convert your SVG into a PNG if you need a PNG as the final result.
