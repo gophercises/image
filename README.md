@@ -33,7 +33,7 @@ A PNG of the image we will be creating can be found in the `demo.svg` file in th
 
 **Use an `svgdef` file to learn about svgo**
 
-They say a picture is worth a thousand words; in this case I suspect it is worth mort. Along with great docs, `svgo` has a single image that show you what types of shapes and lines can be created with each function call. Rather than having to experiment, we can just scan the image and quickly figure out which fits our needs. You can find that image in the repo, or here: <https://raw.githubusercontent.com/ajstarks/svgo/master/svgdef.png>
+They say a picture is worth a thousand words; in this case I suspect it is worth more. Along with great docs, `svgo` has a single image that show you what types of shapes and lines can be created with each function call. Rather than having to experiment, we can just scan the image and quickly figure out which fits our needs. You can find that image in the repo, or here: <https://raw.githubusercontent.com/ajstarks/svgo/master/svgdef.png>
 
 **Use a tool like `rsvg-convert` to convert an SVG into a PNG**
 
