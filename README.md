@@ -38,3 +38,9 @@ They say a picture is worth a thousand words; in this case I suspect it is worth
 **Use a tool like `rsvg-convert` to convert an SVG into a PNG**
 
 You can use a tool like `rsvg-covnert` to convert your SVG into a PNG if you need a PNG as the final result.
+
+
+**SVGo example refactor**
+
+@ajstarks provided an example refactor with SVGo here: <https://gist.github.com/ajstarks/8b1c24545264c20625073faa5e079a59>
+The refactor shows how you can adjust the bar width and separation. Also, added variables to allow you to adjust aspects of the plot, and improve readability. (Thanks Anthony!)
